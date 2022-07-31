@@ -1,0 +1,24 @@
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+.inputTask {
+  border: solid red 1px;
+}
+.titleError{
+  color: red;
+}
+
+.activeFilter {
+  background-color: darkgray;
+  border-radius: 2px;
+  color: cornsilk;
+}
+
+.complitedTask{
+  opacity: 0.5;
+}
